@@ -1,0 +1,57 @@
+package model;
+
+import java.sql.Date;
+
+public class Customer {
+	private int id;
+	private String name;
+	private Date birthDay;
+	private String address;
+	
+	public Customer() {
+		
+	}
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public Date getBirthDay() {
+		return birthDay;
+	}
+
+	public void setBirthDay(Date birthDay) {
+		this.birthDay = birthDay;
+	}
+
+	public String getAddress() {
+		return address;
+	}
+
+	public void setAddress(String address) {
+		this.address = address;
+	}
+
+	public Customer(int id, String name, Date birthDay, String address) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.birthDay = birthDay;
+		this.address = address;
+	}
+	
+	
+	
+}
